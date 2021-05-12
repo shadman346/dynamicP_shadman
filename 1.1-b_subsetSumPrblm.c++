@@ -33,7 +33,7 @@ for (int i = 0; i < n+1; i++){
 
 bool subsetSum(int sum, int *arr, int N ){
 
-    for (int i=1; i<n+1; i++)
+    for (int i=1; i<N+1; i++)
         for(int j=1; j<sum+1; j++)   // j is basically a capacity for knapSack
         {
             if(arr[i-1]>j)

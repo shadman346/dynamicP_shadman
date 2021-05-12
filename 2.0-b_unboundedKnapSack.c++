@@ -1,7 +1,7 @@
 // almost same as knapSack , but now it can take reptative lelements as it is unbounded
 // now when the item wight is smaller than knap sack we used to have 2 conditions, right?
 //we have 2 condition here to0, but unlike KnapSack we do not processed item in one of those condition,
-//when we are not including item we considered it processed and apply algo in (n-1)elements for some capacity
+//when we are not including item then only we considered it processed and apply algo in (n-1)elements for some capacity
 // but when we are including item we do not processed as because there is a chance that we want that item again
 // so we apply algo in (n) elements for some capacity-item_weight
 

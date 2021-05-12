@@ -56,7 +56,7 @@ int solve(string s, int i, int j, bool istrue){
 return mp[temp] = ans;
 }
 int main(){
-    string str="T&F";
+    string str="T|F|T&F|T";
     int n = str.size();
 
     mp.clear();

@@ -7,7 +7,7 @@
 // take range as MAX_SUM and if we have s1{} set and s2{} set ,then one must be smaller(or equal) to range/2.
 // if range= s2{} + s1{} then s2{}=range-s1{}
 // therefore diff= s2{}-s1{} can be wriiiten as diff=range-2*s1{};  we can also see as s1{} approaching range/2 the diff will be min
-//for arr {1,2,7} , dynamic matrix t[3+1][10/2 +1]  (boolean) 
+//for arr {1,2,7} , dynamic matrix t[3+1][(10/2) +1]  (boolean) 
 // we have sum=10 then s1{} must lie sum<=5 now we check t[3][5] if true then there subset exist otherewise no.
 // if t[3][5] false then check t[3][4] if true then calculate minimum difference = range-2*s1 = 10-2*4=2; if not continue the process
 #include<bits/stdc++.h>
